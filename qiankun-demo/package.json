@@ -8,7 +8,11 @@
     "dev:all": "npm-run-all --parallel dev:main dev:vue dev:react",
     "dev:main": "cd qiankun-main && npm run serve",
     "dev:vue": "cd qiankun-vue && npm run serve",
-    "dev:react": "cd qiankun-react && yarn start"
+    "dev:react": "cd qiankun-react && yarn start",
+    "install:all": "npm-run-all --parallel install:main install:vue install:react",
+    "install:main": "cd qiankun-main && npm install",
+    "install:vue": "cd qiankun-vue && npm install",
+    "install:react": "cd qiankun-main && yarn"
   },
   "keywords": [],
   "author": "",
